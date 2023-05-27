@@ -1,6 +1,6 @@
 public class ApplePieRecipe {
 
-    public void printIngredients () {
+    public void printEverything () {
         System.out.println("Dit zijn de ingredienten voor de appeltaart:");
         System.out.println(butter.getAmount () + " " + butter.getUnit () + " " + butter.getName ());
         System.out.println(casterSugar.getAmount () + " " + casterSugar.getUnit () + " " + casterSugar.getName ());
@@ -13,7 +13,36 @@ public class ApplePieRecipe {
         System.out.println(cinnamon.getAmount () + " " + cinnamon.getUnit () + " " + cinnamon.getName ());
         System.out.println(butter.getAmount () + " " + butter.getUnit () + " " + butter.getName ());
         System.out.println(breadCrumbs.getAmount () + " " + breadCrumbs.getUnit () + " " + breadCrumbs.getName ());
+        System.out.println("Dit zijn de stappen die je moet volgen om dit recept te maken:");
+        oven ();
+        egg ();
+        dough ();
+        apple ();
+        springform ();
+        doughspring ();
+        applespring ();
+        rolldough ();
+        coverspring ();
+        bake ();
     }
+
+
+
+
+//    public void printIngredients () {
+//        System.out.println("Dit zijn de ingredienten voor de appeltaart:");
+//        System.out.println(butter.getAmount () + " " + butter.getUnit () + " " + butter.getName ());
+//        System.out.println(casterSugar.getAmount () + " " + casterSugar.getUnit () + " " + casterSugar.getName ());
+//        System.out.println(flour.getAmount () + " " + flour.getUnit () + " " + flour.getName ());
+//        System.out.println(egg.getAmount () + " " + egg.getUnit () + " " + egg.getName ());
+//        System.out.println(vanillaSugar.getAmount () + " " + vanillaSugar.getUnit () + " " + vanillaSugar.getName ());
+//        System.out.println(salt.getAmount () + " " + salt.getUnit () + " " + salt.getName ());
+//        System.out.println(apple.getAmount () + " " + apple.getUnit () + " " + apple.getName ());
+//        System.out.println(sugar.getAmount () + " " + sugar.getUnit () + " " + sugar.getName ());
+//        System.out.println(cinnamon.getAmount () + " " + cinnamon.getUnit () + " " + cinnamon.getName ());
+//        System.out.println(butter.getAmount () + " " + butter.getUnit () + " " + butter.getName ());
+//        System.out.println(breadCrumbs.getAmount () + " " + breadCrumbs.getUnit () + " " + breadCrumbs.getName ());
+//    }
 
     Ingredients butter = new Ingredients(200, "gram", "ongezouten roomboter");
     Ingredients casterSugar = new Ingredients(200, "gram", "witte bastardsuiker");
@@ -66,17 +95,17 @@ public class ApplePieRecipe {
         System.out.println("Zet de taart iets onder het midden van de oven. Bak de taart in 60 minuten op 170 graden Celsius (boven en onderwarmte) gaar en goudbruin.");
     }
 
-    public void printRecipe () {
-        System.out.println("Dit zijn de stappen die je moet volgen om dit recept te maken:");
-        oven ();
-        egg ();
-        dough ();
-        apple ();
-        springform ();
-        doughspring ();
-        applespring ();
-        rolldough ();
-        coverspring ();
-        bake ();
-    }
+//    public void printRecipe () {
+//        System.out.println("Dit zijn de stappen die je moet volgen om dit recept te maken:");
+//        oven ();
+//        egg ();
+//        dough ();
+//        apple ();
+//        springform ();
+//        doughspring ();
+//        applespring ();
+//        rolldough ();
+//        coverspring ();
+//        bake ();
+//    }
 }
